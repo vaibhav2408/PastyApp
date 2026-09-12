@@ -2,6 +2,14 @@
 
 A native macOS menu bar app that keeps your last 20 text and image copies in memory.
 
+## Download
+
+[Download Clip20 for Apple silicon Macs](https://github.com/vaibhav2408/PastyApp/releases/latest/download/Clip20-macOS-arm64.zip) · macOS 13 or later
+
+Unzip the download, move `Clip20.app` to Applications, and open it. The app appears in the menu bar. Downloads from this private repository require repository access.
+
+This build is locally signed and is not notarized by Apple. If macOS blocks it on first launch, see [Apple's instructions for opening an app from an unidentified developer](https://support.apple.com/en-gb/102445). Updates and version details are on the [Releases page](https://github.com/vaibhav2408/PastyApp/releases).
+
 ## Use
 
 Open `dist/Clip20.app`, then copy some text or an image. Click the **C** with a small **H** in the menu bar or press **Control–Option–V** to open history. Click an item or select it with **↑ / ↓** and press **Return**. Focus returns to your previous app; press **⌘V** to paste.
